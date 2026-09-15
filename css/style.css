@@ -217,7 +217,7 @@ body {
   position: fixed;
   bottom: 0;
   background-color: white;
-  padding: 10px 30px;
+  padding: 10px 5px;
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
@@ -241,7 +241,7 @@ body {
   }
   .feed {
     grid-template-columns: 1fr;
-    gap: 50px;
+    gap: 20px;
   }
 
   .mobile-nav {
@@ -249,6 +249,14 @@ body {
   }
 
   .links-section {
+    display: none;
+  }
+
+  .main-section {
+    padding: 10px 20px;
+  }
+
+  .search-section {
     display: none;
   }
 }
