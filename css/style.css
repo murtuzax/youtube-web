@@ -130,6 +130,15 @@ body {
   padding: 10px 30px;
 }
 
+.category {
+  display: flex;
+  overflow-x: auto;
+}
+
+.category::-webkit-scrollbar {
+  display: none;
+}
+
 .category button {
   padding: 5px 10px;
   border: none;
@@ -236,7 +245,7 @@ body {
 }
 
 .mobile-nav span {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 @media (max-width:600px) {
