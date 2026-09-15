@@ -133,6 +133,8 @@ body {
 .category {
   display: flex;
   overflow-x: auto;
+  width: 100%;
+  max-width: 100%;
 }
 
 .category::-webkit-scrollbar {
