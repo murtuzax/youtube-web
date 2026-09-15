@@ -130,17 +130,6 @@ body {
   padding: 10px 30px;
 }
 
-.category {
-  display: flex;
-  overflow-x: auto;
-  width: 100%;
-  max-width: 100%;
-}
-
-.category::-webkit-scrollbar {
-  display: none;
-}
-
 .category button {
   padding: 5px 10px;
   border: none;
